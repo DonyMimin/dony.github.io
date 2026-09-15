@@ -7,6 +7,8 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![GitLab CI](https://img.shields.io/badge/GitLab_Runner-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://docs.gitlab.com/runner/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 Backend Engineer with 2+ years of production experience architecting high-availability distributed systems, gamification engines, SSO platforms, and enterprise management tools across **Go**, **.NET 8**, and **Node.js**, with proven fullstack capability in **React** and **Next.js**. Experienced in designing multi-company access governance, secure API integrations, dynamic leaderboard & scoring systems, and robust observability pipelines.
@@ -22,7 +24,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 | **Production Experience** | **2+ Years** architecting distributed systems, enterprise IAM & gamification |
 | **System Reliability** | **99.9% Uptime** sustained across high-traffic microservices in production |
 | **Academic Standing** | **3.97 / 4.00 GPA (Summa Cum Laude)** in Computer Science at Tarumanagara University |
-| **Code Quality** | **>90% Unit Test Coverage** applied with clean architecture & CI/CD tooling |
+| **CI/CD & Code Quality** | **>90% Unit Test Coverage** applied with automated **GitHub Actions & GitLab Runner** pipelines |
 | **Performance Profiling** | **P95 Latency Reduction** by identifying critical database & query bottlenecks |
 
 ---
@@ -33,7 +35,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 - **Backend & Distributed**: .NET 8 / ASP.NET Core, Echo, Gin, Express.js, Node.js, Microservices
 - **Frontend & Modern Web**: React.js, Next.js (App Router/SSR), TypeScript, Modern UI & SPA
 - **Databases & Storage**: PostgreSQL, MySQL, MongoDB, MariaDB, SQL Server, ClickHouse, Redis, OBS Object Storage
-- **DevOps & Cloud**: Docker, Redis, Git, AWS, Teleport, Linux, Postman
+- **DevOps & CI/CD**: CI/CD Pipelines (GitHub Actions, GitLab Runner), Docker, Redis, Git, AWS, Teleport, Linux, Postman
 - **Architecture & Security**: RESTful APIs, Microservices, Gamification & Points Engine, SSO/OAuth2, Keycloak, RBAC, WAF, Load Balancing, OWASP Top 10
 - **Observability**: Traefik, Victoria Metrics, Latency Percentile Analysis (P50-P99), Fluentbit
 - **AI & Computer Vision**: TensorFlow, OpenCV, Deep Learning, YOLOv8, CNN
@@ -53,6 +55,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 - Maintained and scaled **5+ backend microservices** sustaining **99.9% uptime** across high-traffic e-commerce workflows.
 - Reduced **P95 API latency** through database query profiling and service bottleneck elimination during peak demand.
 - Achieved **>90% unit test coverage** across core microservices, preventing regressions and stabilizing releases.
+- Accelerated release cycles by designing and automating internal development & deployment workflows using **CI/CD pipelines (GitHub Actions & GitLab Runner)**, while integrating proactive system monitoring tooling.
 
 ---
 
