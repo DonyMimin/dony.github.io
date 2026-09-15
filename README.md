@@ -7,11 +7,13 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![GitLab CI](https://img.shields.io/badge/GitLab_Runner-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://docs.gitlab.com/runner/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 Backend Engineer with 2+ years of production experience architecting high-availability distributed systems, gamification engines, SSO platforms, and enterprise management tools across **Go**, **.NET 8**, and **Node.js**, with proven fullstack capability in **React** and **Next.js**. Experienced in designing multi-company access governance, secure API integrations, dynamic leaderboard & scoring systems, and robust observability pipelines.
 
-Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces rigorous software engineering standards: **>90% unit test coverage**, clean architecture, and low-latency API optimization.
+Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces rigorous software engineering standards: **>90% unit test coverage**, clean architecture, automated CI/CD pipelines, and low-latency API optimization. Author of a published peer-reviewed research paper on Computer Vision & Deep Learning.
 
 ---
 
@@ -22,7 +24,8 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 | **Production Experience** | **2+ Years** architecting distributed systems, enterprise IAM & gamification |
 | **System Reliability** | **99.9% Uptime** sustained across high-traffic microservices in production |
 | **Academic Standing** | **3.97 / 4.00 GPA (Summa Cum Laude)** in Computer Science at Tarumanagara University |
-| **Code Quality** | **>90% Unit Test Coverage** applied with clean architecture & CI/CD tooling |
+| **CI/CD & Code Quality** | **>90% Unit Test Coverage** applied with automated **GitHub Actions & GitLab Runner** pipelines |
+| **Scientific Research** | **Published Peer-Reviewed Paper** on YOLOv8 & ResNet-50 AI ([DOI: 10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757)) |
 | **Performance Profiling** | **P95 Latency Reduction** by identifying critical database & query bottlenecks |
 
 ---
@@ -33,10 +36,10 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 - **Backend & Distributed**: .NET 8 / ASP.NET Core, Echo, Gin, Express.js, Node.js, Microservices
 - **Frontend & Modern Web**: React.js, Next.js (App Router/SSR), TypeScript, Modern UI & SPA
 - **Databases & Storage**: PostgreSQL, MySQL, MongoDB, MariaDB, SQL Server, ClickHouse, Redis, OBS Object Storage
-- **DevOps & Cloud**: Docker, Redis, Git, AWS, Teleport, Linux, Postman
+- **DevOps & CI/CD**: CI/CD Pipelines (GitHub Actions, GitLab Runner), Docker, Redis, Git, AWS, Teleport, Linux, Postman
 - **Architecture & Security**: RESTful APIs, Microservices, Gamification & Points Engine, SSO/OAuth2, Keycloak, RBAC, WAF, Load Balancing, OWASP Top 10
 - **Observability**: Traefik, Victoria Metrics, Latency Percentile Analysis (P50-P99), Fluentbit
-- **AI & Computer Vision**: TensorFlow, OpenCV, Deep Learning, YOLOv8, CNN
+- **AI & Computer Vision**: TensorFlow, OpenCV, Deep Learning, YOLOv8, ResNet-50, CNN
 
 ---
 
@@ -53,20 +56,31 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 - Maintained and scaled **5+ backend microservices** sustaining **99.9% uptime** across high-traffic e-commerce workflows.
 - Reduced **P95 API latency** through database query profiling and service bottleneck elimination during peak demand.
 - Achieved **>90% unit test coverage** across core microservices, preventing regressions and stabilizing releases.
+- Accelerated release cycles by designing and automating internal development & deployment workflows using **CI/CD pipelines (GitHub Actions & GitLab Runner)**, while integrating proactive system monitoring tooling.
+
+---
+
+## 📚 Academic Publications & Research
+
+- **Deteksi YOLOv8 dan Pengenalan Wajah Menggunakan RESNET50 Pada Gereja**  
+  *Authors: Dony Dony, Chairisni Lubis*  
+  **JATISI (Jurnal Teknik Informatika dan Sistem Informasi)**, Vol. 12, No. 1, 2025.  
+  *Research on automating congregation seating management and attendance logging through a dual-model computer vision pipeline combining YOLOv8 object detection with ResNet-50 deep convolutional neural networks.*  
+  [![DOI: 10.35957/jatisi.v12i1.9757](https://img.shields.io/badge/DOI-10.35957%2Fjatisi.v12i1.9757-0284c7?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.35957/jatisi.v12i1.9757)
 
 ---
 
 ## 🚀 Key Technical Projects
 
-1. **SSO & Identity Platform – Keycloak Integration** *(Go, Keycloak, PostgreSQL, Docker)*
+1. **SSO & Identity Platform – Keycloak Integration** *(Go, Keycloak, PostgreSQL, Docker)*  
    Hybrid identity architecture combining Keycloak APIs with local database reference mapping for 200+ user accounts with zero manual provisioning.
-2. **AI-Powered Desktop Attendance & Vision System** *(Python, YOLOv8, CNN, OpenCV, TensorFlow)*
-   Real-time seat availability detection and facial recognition using camera feeds and deep learning.
-3. **Enterprise Gamification & Points Engine** *(.NET 8, ASP.NET Core, Redis, PostgreSQL)*
+2. **AI-Powered Desktop Attendance & Vision System** *(Python, YOLOv8, ResNet-50, OpenCV, TensorFlow)* — *Published Research in JATISI 2025*  
+   Real-time seat availability detection and facial recognition using camera feeds and deep learning. Peer-reviewed publication available via DOI: [10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757).
+3. **Enterprise Gamification & Points Engine** *(.NET 8, ASP.NET Core, Redis, PostgreSQL)*  
    Dynamic point calculation engine with real-time leaderboard rankings, seasonal resets, and attendance streak tracking.
-4. **Compliance-Focused Legal Management System (LMS)** *(.NET 8, WAF, OWASP, OBS Storage)*
+4. **Compliance-Focused Legal Management System (LMS)** *(.NET 8, WAF, OWASP, OBS Storage)*  
    Multi-layer defense and automated MDM user synchronization for enterprise compliance.
-5. **Maritime & Global Logistics Web Platforms** *(React, Next.js, TypeScript)*
+5. **Maritime & Global Logistics Web Platforms** *(React, Next.js, TypeScript)*  
    Responsive corporate platforms with multilingual internationalization and high search engine performance.
 
 ---

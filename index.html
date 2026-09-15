@@ -104,7 +104,7 @@
 
             <div class="hero-role">
               <span>I specialize in</span>
-              <span class="typed" data-typed-items="Backend Engineering, Distributed Systems, Go &amp; .NET 8 Microservices, Fullstack Web (React &amp; Next.js), Low-Latency Architecture"></span>
+              <span class="typed" data-typed-items="Backend Engineering, Distributed Systems, Go &amp; .NET 8 Microservices, CI/CD &amp; DevOps Pipelines, Fullstack Web (React &amp; Next.js), Low-Latency Architecture"></span>
             </div>
 
             <div class="hero-meta-badges">
@@ -146,40 +146,30 @@
             </div>
 
             <div class="hero-social-strip">
-              <span>Connect:</span>
-              <a href="https://github.com/DonyMimin" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="GitHub">
-                <i class="bx bxl-github"></i>
-              </a>
-              <a href="https://linkedin.com/in/dony152252238" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="LinkedIn">
-                <i class="bx bxl-linkedin"></i>
-              </a>
-              <a href="https://wa.me/62895325432010" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="WhatsApp">
-                <i class="bx bxl-whatsapp"></i>
-              </a>
-              <a href="mailto:dony.minmin@gmail.com" class="social-pill-btn" title="Email">
-                <i class="bi bi-envelope-fill"></i>
-              </a>
+              <span>Find me on:</span>
+              <a href="https://github.com/DonyMimin" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="GitHub"><i class="bx bxl-github"></i></a>
+              <a href="https://linkedin.com/in/dony152252238" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://wa.me/62895325432010" target="_blank" rel="noopener noreferrer" class="social-pill-btn" title="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
             </div>
 
           </div>
 
-          <!-- Hero Right Column: Interactive Backend Terminal Widget -->
-          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="150">
+          <!-- Hero Right: Live Architecture Mockup Card -->
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="200">
             <div class="terminal-card">
-              
               <div class="terminal-header">
                 <div class="terminal-controls">
                   <span class="terminal-dot close"></span>
                   <span class="terminal-dot minimize"></span>
                   <span class="terminal-dot expand"></span>
                 </div>
-                <div class="terminal-title">dony@prod-cluster:~$ ./service-health</div>
-                <div style="width: 40px;"></div>
+                <div class="terminal-title">dony@backend-core: ~</div>
+                <span class="badge bg-success-subtle text-success py-1 px-2 rounded-pill small">LIVE</span>
               </div>
 
               <div class="terminal-body">
                 <div class="term-cmd">
-                  <span class="term-prompt">$</span> inspect --service=dony-backend-core --telemetry
+                  <span class="term-prompt">$</span> systemctl status backend-engine
                 </div>
 
                 <div class="term-row">
@@ -205,6 +195,11 @@
                 <div class="term-row">
                   <span class="term-key">Frontend Stacks</span>
                   <span class="term-val cyan">React.js, Next.js, Modern Web</span>
+                </div>
+
+                <div class="term-row">
+                  <span class="term-key">CI/CD &amp; DevOps</span>
+                  <span class="term-val success">GitHub Actions, GitLab Runner, Docker</span>
                 </div>
 
                 <div class="term-row">
@@ -517,14 +512,17 @@
             </div>
           </div>
 
-          <!-- 5. DevOps & Observability -->
+          <!-- 5. DevOps & CI/CD Pipelines -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="glass-card skill-group-card">
               <div class="skill-group-header">
-                <div class="skill-group-icon"><i class="bi bi-terminal-split"></i></div>
-                <h4 class="skill-group-title">DevOps &amp; Observability</h4>
+                <div class="skill-group-icon"><i class="bi bi-arrow-repeat"></i></div>
+                <h4 class="skill-group-title">DevOps &amp; CI/CD</h4>
               </div>
               <div class="skill-tags-wrapper">
+                <span class="tech-chip proficient"><i class="bi bi-arrow-repeat"></i> CI/CD Pipelines <span class="badge-mini">Proficient</span></span>
+                <span class="tech-chip proficient"><i class="bx bxl-github"></i> GitHub Actions</span>
+                <span class="tech-chip proficient"><i class="bx bxl-gitlab"></i> GitLab Runner</span>
                 <span class="tech-chip proficient"><i class="bx bxl-docker"></i> Docker</span>
                 <span class="tech-chip"><i class="bx bxl-aws"></i> AWS</span>
                 <span class="tech-chip"><i class="bx bxl-git"></i> Git</span>
@@ -651,6 +649,9 @@
               <div class="exp-stack-tags">
                 <span class="stack-tag">Go</span>
                 <span class="stack-tag">Microservices</span>
+                <span class="stack-tag">CI/CD Pipelines</span>
+                <span class="stack-tag">GitHub Actions</span>
+                <span class="stack-tag">GitLab Runner</span>
                 <span class="stack-tag">PostgreSQL</span>
                 <span class="stack-tag">Redis</span>
                 <span class="stack-tag">P95 Optimization</span>
@@ -669,7 +670,7 @@
                   <strong>Achieved &gt;90% unit test coverage</strong> across core microservices, significantly increasing release stability and reducing production regressions.
                 </li>
                 <li>
-                  <strong>Accelerated release cycles</strong> by automating internal development workflows and integrating proactive system monitoring tooling.
+                  <strong>Accelerated release cycles</strong> by designing and automating internal development &amp; deployment workflows using <strong>CI/CD pipelines (GitHub Actions &amp; GitLab Runner)</strong>, while integrating proactive system monitoring tooling.
                 </li>
               </ul>
 
@@ -773,17 +774,19 @@
               <div class="project-card-header">
                 <span class="project-type-badge">AI &amp; Computer Vision</span>
                 <div class="project-links">
+                  <a href="https://doi.org/10.35957/jatisi.v12i1.9757" target="_blank" rel="noopener noreferrer" class="project-icon-link" title="Published Paper in JATISI Journal (DOI: 10.35957/jatisi.v12i1.9757)"><i class="bi bi-journal-bookmark-fill"></i></a>
                   <a href="https://github.com/DonyMimin" target="_blank" rel="noopener noreferrer" class="project-icon-link" title="GitHub Source"><i class="bx bxl-github"></i></a>
                 </div>
               </div>
               <h3 class="project-title">AI-Powered Desktop Attendance &amp; Vision System</h3>
               <p class="project-desc">
-                Built an AI-powered desktop application for real-time seat availability detection using camera feeds, utilizing YOLOv8 for object detection and CNN for automated attendance recognition.
+                Built an AI-powered desktop application for real-time seat availability detection and automated attendance recognition using camera feeds, utilizing YOLOv8 and ResNet-50 CNN. <strong>Peer-reviewed and published in JATISI Journal (2025).</strong>
               </p>
               <div class="project-tech-tags">
+                <span class="project-tag" style="background: rgba(34, 197, 94, 0.15); border-color: rgba(34, 197, 94, 0.4); color: #4ade80;"><i class="bi bi-journal-check me-1"></i>Published DOI</span>
                 <span class="project-tag">Python</span>
                 <span class="project-tag">YOLOv8</span>
-                <span class="project-tag">CNN</span>
+                <span class="project-tag">ResNet-50</span>
                 <span class="project-tag">OpenCV</span>
                 <span class="project-tag">TensorFlow</span>
               </div>
@@ -931,6 +934,57 @@
                     <i class="bi bi-check2-square text-primary"></i>
                     <span>Artificial Intelligence &amp; Vision</span>
                   </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Scientific Publication & Research Card -->
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <div class="glass-card education-card">
+
+              <div class="edu-header">
+                <div class="edu-title-group">
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="badge-mini text-primary bg-primary-subtle px-2 py-1 rounded">
+                      <i class="bi bi-journal-bookmark-fill me-1"></i>Peer-Reviewed Scientific Publication
+                    </span>
+                    <span class="badge-mini text-success bg-success-subtle px-2 py-1 rounded">
+                      <i class="bi bi-patch-check-fill me-1"></i>Published (2025)
+                    </span>
+                  </div>
+                  <h3>Deteksi YOLOv8 dan Pengenalan Wajah Menggunakan RESNET50 Pada Gereja</h3>
+                  <div class="edu-institution">
+                    <i class="bi bi-journal-text me-1"></i>JATISI (Jurnal Teknik Informatika dan Sistem Informasi) &bull; Vol. 12, No. 1, 2025
+                  </div>
+                </div>
+
+                <div class="d-flex flex-column align-items-lg-end gap-2">
+                  <a href="https://doi.org/10.35957/jatisi.v12i1.9757" target="_blank" rel="noopener noreferrer" class="btn-primary-glow" style="padding: 9px 20px; font-size: 0.9rem;">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                    <span>DOI: 10.35957/jatisi.v12i1.9757</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="mt-3 pt-3 border-top border-secondary border-opacity-10">
+                <p class="text-secondary mb-3" style="line-height: 1.7; font-size: 0.95rem;">
+                  <strong class="text-white">Authors:</strong> Dony, Chairisni Lubis &bull; <strong class="text-white">Affiliation:</strong> Tarumanagara University<br>
+                  <strong class="text-white">Research Focus:</strong> Addressed traditional congregation seating management and attendance monitoring challenges by architecting an automated computer vision pipeline. Implemented <strong>YOLOv8</strong> for high-accuracy seat availability detection and <strong>ResNet-50</strong> deep residual convolutional neural networks for automated facial feature extraction and presence logging.
+                </p>
+
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="stack-tag">YOLOv8</span>
+                  <span class="stack-tag">ResNet-50</span>
+                  <span class="stack-tag">Deep Learning</span>
+                  <span class="stack-tag">CNN</span>
+                  <span class="stack-tag">OpenCV</span>
+                  <span class="stack-tag">TensorFlow</span>
+                  <span class="stack-tag">Python</span>
+                  <span class="stack-tag">Computer Vision</span>
                 </div>
               </div>
 
