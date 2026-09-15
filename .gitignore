@@ -1,0 +1,8 @@
+# Video files (too large for GitHub 100MB limit)
+*.mp4
+*.mov
+*.avi
+
+# OS files
+Thumbs.db
+.DS_Store
