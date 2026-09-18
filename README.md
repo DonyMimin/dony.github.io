@@ -13,7 +13,7 @@
 
 Backend Engineer with 2+ years of production experience architecting high-availability distributed systems, gamification engines, SSO platforms, and enterprise management tools across **Go**, **.NET 8**, and **Node.js**, with proven fullstack capability in **React** and **Next.js**. Experienced in designing multi-company access governance, secure API integrations, dynamic leaderboard & scoring systems, and robust observability pipelines.
 
-Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces rigorous software engineering standards: **>90% unit test coverage**, clean architecture, automated CI/CD pipelines, and low-latency API optimization. Author of a published peer-reviewed research paper on Computer Vision & Deep Learning.
+Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigorous software engineering standards: **>90% unit test coverage**, clean architecture, automated CI/CD pipelines, and low-latency API optimization. Author of a published peer-reviewed research paper on Computer Vision & Deep Learning.
 
 ---
 
@@ -23,7 +23,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Summa Cum Laude**) and enforces
 |---|---|
 | **Production Experience** | **2+ Years** architecting distributed systems, enterprise IAM & gamification |
 | **System Reliability** | **99.9% Uptime** sustained across high-traffic microservices in production |
-| **Academic Standing** | **3.97 / 4.00 GPA (Summa Cum Laude)** in Computer Science at Tarumanagara University |
+| **Academic Standing** | **3.97 / 4.00 GPA (Cum Laude)** in Computer Science at Tarumanagara University |
 | **CI/CD & Code Quality** | **>90% Unit Test Coverage** applied with automated **GitHub Actions & GitLab Runner** pipelines |
 | **Scientific Research** | **Published Peer-Reviewed Paper** on YOLOv8 & ResNet-50 AI ([DOI: 10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757)) |
 | **Performance Profiling** | **P95 Latency Reduction** by identifying critical database & query bottlenecks |
