@@ -38,7 +38,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
 - **Databases & Storage**: PostgreSQL, MySQL, MongoDB, MariaDB, SQL Server, ClickHouse, Redis, OBS Object Storage
 - **DevOps & CI/CD**: CI/CD Pipelines (GitHub Actions, GitLab Runner), Docker, Redis, Git, AWS, Teleport, Linux, Postman
 - **Architecture & Security**: RESTful APIs, Microservices, Gamification & Points Engine, SSO/OAuth2, Keycloak, RBAC, WAF, Load Balancing, OWASP Top 10
-- **Observability**: Traefik, Victoria Metrics, Latency Percentile Analysis (P50-P99), Fluentbit
+- **Observability**: Go, Traefik, Victoria Metrics, Latency Percentile Analysis (P50-P99), Fluentbit
 - **AI & Computer Vision**: TensorFlow, OpenCV, Deep Learning, YOLOv8, ResNet-50, CNN
 
 ---
@@ -50,7 +50,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
 - Extended an **enterprise SSO platform for a major industrial conglomerate** beyond app-level authentication to manage multi-company employee access, division-based RBAC, and subcontractor onboarding across 5+ internal applications.
 - Architected a compliance-focused **Legal Management System (LMS)** within an enterprise corporate solutions ecosystem, featuring multi-layer security (WAF, Load Balancer, Firewall) against OWASP top threats, OBS object storage, and automated MDM API synchronization.
 - Developed and launched **responsive web platforms** for multinational maritime & shipping logistics companies, boosting international web traffic by **40%**.
-- Integrated observability tooling (**Traefik, Victoria Metrics, Fluentbit**) for real-time alerting and latency tracking (P50-P99), maintaining **99.9% uptime** in production.
+- Built observability services & integrated tooling in **Go** (**Traefik, Victoria Metrics, Fluentbit**) for real-time alerting and latency tracking (P50-P99), maintaining **99.9% uptime** in production.
 
 ### Backend Developer | PT. Omni Digitama Nusantara (Ruparupa) *(Feb 2024 – Feb 2025)*
 - Maintained and scaled **5+ backend microservices** sustaining **99.9% uptime** across high-traffic e-commerce workflows.
@@ -72,7 +72,7 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
 
 ## 🚀 Key Technical Projects
 
-1. **SSO & Identity Platform – Keycloak Integration** *(Go, Keycloak, PostgreSQL, Docker)*  
+1. **SSO & Identity Platform – Keycloak Integration** *(Node.js, Keycloak, PostgreSQL, Docker)*  
    Hybrid identity architecture combining Keycloak APIs with local database reference mapping for 200+ user accounts with zero manual provisioning.
 2. **AI-Powered Desktop Attendance & Vision System** *(Python, YOLOv8, ResNet-50, OpenCV, TensorFlow)* — *Published Research in JATISI 2025*  
    Real-time seat availability detection and facial recognition using camera feeds and deep learning. Peer-reviewed publication available via DOI: [10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757).
