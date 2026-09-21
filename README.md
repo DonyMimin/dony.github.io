@@ -73,8 +73,8 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
 
 ## 🚀 Key Technical Projects
 
-1. **SSO & Identity Platform – Keycloak Integration** *(Node.js, Keycloak, RESTful APIs, PostgreSQL, Docker)*  
-   Hybrid identity architecture combining Keycloak REST APIs with local database reference mapping for 200+ user accounts with zero manual provisioning.
+1. **SSO & Identity Platform – Keycloak Integration** *(Node.js, Keycloak, PostgreSQL, Docker)*  
+   Hybrid identity architecture combining Keycloak APIs with local database reference mapping for 200+ user accounts with zero manual provisioning.
 2. **AI-Powered Desktop Attendance & Vision System** *(Python, YOLOv8, ResNet-50, OpenCV, TensorFlow)* — *Published Research in JATISI 2025*  
    Real-time seat availability detection and facial recognition using camera feeds and deep learning. Peer-reviewed publication available via DOI: [10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757).
 3. **Enterprise Gamification & Points Engine** *(.NET 8, Microservices, Redis, SQL Server, Clean Arch)*  
