@@ -46,10 +46,11 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
 ## 💼 Selected Work Experience
 
 ### Software Developer | PT. Ifabula Digital Kreasi *(March 2025 – Present)*
+- Architected backend RESTful APIs in **Node.js (TypeScript)** for an enterprise **Centralized Consent Management System**, implementing multi-factor authentication (MFA via Email OTP), secure consent data staging in PostgreSQL, and audit-ready data governance across business units.
 - Engineered a high-performance **Gamification & Points Engine in .NET 8** for an enterprise workforce engagement platform, implementing dynamic point calculation rules, real-time leaderboards, seasonal resets, and consecutive streak tracking.
 - Extended an **enterprise SSO platform for a major industrial conglomerate** beyond app-level authentication to manage multi-company employee access, division-based RBAC, and subcontractor onboarding across 5+ internal applications.
 - Architected a compliance-focused **Legal Management System (LMS)** within an enterprise corporate solutions ecosystem, featuring multi-layer security (WAF, Load Balancer, Firewall) against OWASP top threats, OBS object storage, and automated MDM API synchronization.
-- Developed and launched **responsive web platforms** for multinational maritime & shipping logistics companies, boosting international web traffic by **40%**.
+- Developed and launched **responsive fullstack web platforms** for multinational maritime & shipping logistics companies using **Next.js and Node.js**, boosting international web traffic by **40%**.
 - Built observability services & integrated tooling in **Go** (**Traefik, Victoria Metrics, Fluentbit**) for real-time alerting and latency tracking (P50-P99), maintaining **99.9% uptime** in production.
 
 ### Backend Developer | PT. Omni Digitama Nusantara (Ruparupa) *(Feb 2024 – Feb 2025)*
@@ -76,12 +77,14 @@ Holds a **3.97/4.00 GPA** in Computer Science (**Cum Laude**) and enforces rigor
    Hybrid identity architecture combining Keycloak APIs with local database reference mapping for 200+ user accounts with zero manual provisioning.
 2. **AI-Powered Desktop Attendance & Vision System** *(Python, YOLOv8, ResNet-50, OpenCV, TensorFlow)* — *Published Research in JATISI 2025*  
    Real-time seat availability detection and facial recognition using camera feeds and deep learning. Peer-reviewed publication available via DOI: [10.35957/jatisi.v12i1.9757](https://doi.org/10.35957/jatisi.v12i1.9757).
-3. **Enterprise Gamification & Points Engine** *(.NET 8, ASP.NET Core, Redis, PostgreSQL)*  
-   Dynamic point calculation engine with real-time leaderboard rankings, seasonal resets, and attendance streak tracking.
-4. **Compliance-Focused Legal Management System (LMS)** *(.NET 8, WAF, OWASP, OBS Storage)*  
-   Multi-layer defense and automated MDM user synchronization for enterprise compliance.
-5. **Maritime & Global Logistics Web Platforms** *(React, Next.js, TypeScript)*  
-   Responsive corporate platforms with multilingual internationalization and high search engine performance.
+3. **Enterprise Gamification & Points Engine** *(.NET 8, Microservices, Redis, SQL Server, Clean Arch)*  
+   High-performance points engine microservice featuring dynamic calculation rules, real-time leaderboard rankings, seasonal resets, and attendance streak tracking.
+4. **Centralized Consent Management Platform** *(Node.js, TypeScript, PostgreSQL, Email OTP, Data Governance)*  
+   Enterprise backend RESTful APIs in Node.js & TypeScript for cross-business-unit consent governance, implementing secure consent data staging in PostgreSQL, multi-factor authentication (Email OTP), and audit logging.
+5. **High-Traffic E-Commerce Microservices** *(Go, Microservices, Clean Arch, Redis, Latency P95)*  
+   Scaled 5+ backend microservices adopting Clean Architecture and sustaining 99.9% uptime, reduced P95 API latency via database bottleneck resolution, and enforced >90% unit test coverage for peak e-commerce demand.
+6. **Production Observability & Telemetry Pipeline** *(Go, Victoria Metrics, Fluentbit, Traefik, Latency P50-P99)*  
+   Go-based monitoring services integrated with Traefik, Victoria Metrics, and Fluentbit for real-time alerting, centralized logging, and P50-P99 latency percentile tracking across production environments.
 
 ---
 
