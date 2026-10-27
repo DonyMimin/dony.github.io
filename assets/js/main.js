@@ -164,9 +164,13 @@
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
+      let activeFilterEl = select('#portfolio-flters li.filter-active');
+      let initialFilter = activeFilterEl ? activeFilterEl.getAttribute('data-filter') : '*';
+
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        filter: initialFilter
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
